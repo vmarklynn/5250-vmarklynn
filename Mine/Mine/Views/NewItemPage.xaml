@@ -26,14 +26,15 @@
                 Orientation="Horizontal">
 
                 <Stepper 
-                Value="{Binding Data.Value, Mode=TwoWay}"
+                Value="{Binding Item.Value, Mode=TwoWay}"
                 Minimum="0"
                 Maximum="10"
                 Increment="1"
                 ValueChanged="Value_OnStepperValueChanged"
                 />
 
-                <Label x:Name="ValueValue" 
+                <Label 
+                   x:Name="ValueValue" 
                    Text="{Binding Item.Value}" 
                    FontSize="Medium"/>
 
