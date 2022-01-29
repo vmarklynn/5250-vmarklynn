@@ -102,7 +102,7 @@ namespace Mine.Services
         }
 
         /// <summary>
-        /// Takes and ID and returns ItemModel
+        /// Takes an ID and returns ItemModel
         /// </summary>
         /// <param name="id"></param>
         /// <returns></returns>
