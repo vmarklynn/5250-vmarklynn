@@ -37,7 +37,7 @@ namespace Mine.Services
         }
 
         /// <summary>
-        /// InsertAsync will write to the table, it returns the ID of what was written
+        /// Write to table returns the ID of what was written
         /// </summary>
         /// <param name="item"></param>
         /// <returns></returns>
