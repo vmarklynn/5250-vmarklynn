@@ -8,7 +8,10 @@ namespace Mine
 {
     public partial class App : Application
     {
-
+ 
+        /// <summary>
+        /// Registers Database
+        /// </summary>
         public App()
         {
             InitializeComponent();
